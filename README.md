@@ -9,7 +9,7 @@
 * ETL    
   * Import data to PostgreSQL
   * Connect PostgreSQL to PowerBI for visualization in EDA
-    ![image info](photos/pbiconnpstg.jpg)
+    ![image info](picture/pbiconnpstg.jpg)
 
 #### Data Analytic 
 * Exploratory Data Analysis
