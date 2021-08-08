@@ -1,0 +1,28 @@
+CREATE TABLE public.sales_train (
+	date date NULL,
+	date_block_num int NULL,
+	shop_id int NULL,
+	item_id int NULL,
+	item_price float4 NULL,
+	item_cnt_day int NULL
+);
+
+
+CREATE TABLE public.items (
+	item_id int NULL,
+	item_category_id int NULL,
+	item_name varchar NULL,
+	item_name_en varchar NULL
+);
+
+CREATE TABLE public.item_categories (
+	item_category_id int NULL,
+	item_category_name varchar NULL,
+	item_category_name_en varchar NULL
+);
+
+CREATE TABLE public.shops (
+	shop_id int NULL,
+	shop_name varchar NULL,
+	shop_name_en varchar NULL
+);
